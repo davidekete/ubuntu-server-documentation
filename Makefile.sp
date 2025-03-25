@@ -11,7 +11,7 @@ BUILDDIR      = _build
 VENVDIR       = $(SPHINXDIR)/venv
 PA11Y         = $(SPHINXDIR)/node_modules/pa11y/bin/pa11y.js --config $(SPHINXDIR)/pa11y.json
 VENV          = $(VENVDIR)/bin/activate
-SPHINX_HOST     ?= 127.0.0.1
+SPHINX_HOST     ?= 0.0.0.0
 SPHINX_PORT     ?= 8000
 
 .PHONY: sp-full-help sp-woke-install sp-pa11y-install sp-install sp-run sp-html \

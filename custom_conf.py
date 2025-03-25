@@ -190,6 +190,8 @@ custom_required_modules = [
     'sphinxcontrib-mermaid',
     'sphinxext-rediraffe',
     'sphinx-hoverxref',
+    'sphinx_reredirects'
+    'matplotlib'
 ]
 
 # Configure hoverxref options
